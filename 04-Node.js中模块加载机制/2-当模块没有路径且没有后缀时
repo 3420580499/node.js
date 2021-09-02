@@ -1,0 +1,9 @@
+require('find')
+
+1.Node.js会假设他是系统模块
+2.Node.js会去node_modules文件夹中 
+3.首先看是否有该名字的js文件 
+4.再看是否有改名字的文件夹  
+5.如果是文件夹看里面是否有index.js   
+6.如果没有index.js查看该文件夹中的package.json中的main确定模块入口文件  
+7.否则找不到报错  

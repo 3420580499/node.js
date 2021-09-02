@@ -3,7 +3,7 @@
       version：版本号  
       description：项目的描述
       main：项目的入口(主)模块
-      scripts：命令的别名   
+      scripts：命令的别名(比如我们使用npm run build 代替了命令nodemon app.js)  
       keywords: 关键字，允许使用关键字的方式描述该项目
       author：作者 
       license：协议
