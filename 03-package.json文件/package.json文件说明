@@ -1,0 +1,14 @@
+1.可以使用npm init 生成package.json文件  
+2.    name:项目名称
+      version：版本号  
+      description：项目的描述
+      main：项目的入口(主)模块
+      scripts：命令的别名   
+      keywords: 关键字，允许使用关键字的方式描述该项目
+      author：作者 
+      license：协议
+      dependencies:记录当前项目所依赖的第三方模块   
+3.只要package.json这个文件存在，npm就会把下载的模块记录到这个文件当中
+4.npm install xxx安装某些模块后会生成node_modules和package-lock.json  
+5.也就是说，如果没有node_modules，可以使用npm install 命令，
+  它会找到package.json文件中的 dependencies重新下载对应的第三方模块    

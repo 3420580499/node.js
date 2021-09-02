@@ -1,0 +1,27 @@
+1.Gulp是node平台开发的前端构建工具(webpack)     
+2.Gulp能做什么：
+     1）项目上线，HTML，css,js文件压缩合并  
+     2）语法转换(es6,less)   
+     3) 公共文件抽离   
+     4) 修改文件后浏览器自动刷新     
+3.Gulp使用的步骤     
+     1）使用npm install gulp 下载gulp库文件(本地安装)      
+     2）在项目的根目录下建立gulpfile.js文件    
+     3）重构项目的文件夹结构src目录放置源代码文件dist目录放置构建后的文件  
+     4）在gulpfile.js文件中编写任务  
+     5）在命令行工具中执行gulp任务    
+4.Gulp中提供的方法：   
+     1）gulp.src()  获取任务要处理的文件   
+     2）gulp.dest()  输出文件    
+     3）gulp.task() 建立gulp任务   
+     4）gulp.watch() 监控文件的变化         
+5.Gulp提供了一个命令行工具可以单独执行gulpfile.js中任务   npm install gulp-cli -g(全局安装)  执行命令为 gulp first
+6.Gulp插件： 
+     1）gulp-htmlmin html文件压缩    
+     2）gulp-csso  压缩css    
+     3）gulp-babel js语法转化    
+     4）gulp-less  less语法转化   
+     5）gulp-uglify 压缩混淆js   
+     6) gulp-file-include  公共文件包含   
+     7）browsersync 浏览器实时同步   
+7.Gulp插件的使用：npm install --save gulp-htmlmin (--save在最新npm中已经没什么作用了，可以去掉)，在gulpfile.js中引入该模块     
