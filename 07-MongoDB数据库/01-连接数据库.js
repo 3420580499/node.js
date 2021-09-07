@@ -1,0 +1,5 @@
+const mongoose = require('mongoose')
+//playground是数据库名称(没有该数据库的话,会帮你建)
+mongoose.connect("mongodb://localhost/playground")
+       .then(() => console.log("数据库连接成功"))
+       .catch(error => console.log(error,'数据库连接失败'))

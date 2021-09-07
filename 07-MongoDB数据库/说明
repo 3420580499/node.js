@@ -1,1 +1,6 @@
 要去下载mongodb数据库，还有mongodb的图形化界面操作的软件
+nom install mongoose 安装
+//因为没有配环境变量,要在path中加入MongoDB的bin目录,才能使用下面的命令
+//没有该集合也可以导入,会帮你创建
+向MongoDB数据库中导数据   命令:mongoimport -d 数据库名称 -c 集合名称 --file 要导入的数据库文件  比如:mongoimport -d playground -c users --file ./user.json
+使用时报错,好像要这样写才行mongoimport -d playground -c users --jsonArray ./user.json
