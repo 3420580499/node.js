@@ -1,0 +1,12 @@
+art-template模板引擎
+1.在命令行工具中使用npm install art-template 命令进行下载
+2.使用const template = require('art-template')引入模板引擎
+3.告诉模板引擎要拼接的数据和模板在哪 const html = template('模板路径',数据)
+
+我是在08-前端模板引擎art-templat下npm install的,1-模板引擎的基本使用文件夹里require的时候没找到的话,回去父文件夹中去找
+
+标准语法: {{{xxx}}}
+原始语法: <%= xxx%>
+如果想显示原文的内容:{{@xxx}}或者<%-xxx%>
+
+npm install dateformat 安装这个第三方模块可以更好的格式化时间日期

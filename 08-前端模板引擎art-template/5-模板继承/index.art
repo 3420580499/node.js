@@ -1,0 +1,4 @@
+{{extend './father.art' }}
+
+{{block 'first'}} 我是第一个坑  {{/block}}
+{{block 'second'}} 我是第二个坑 {{/block}}

@@ -1,0 +1,29 @@
+*{
+    padding: 0;
+    margin: 0;
+
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+button {
+    margin-left: 20px;
+    border: 0;
+    border-radius: 3px;
+    width: 79px;
+    height: 35px;
+    background-color: #2a75b9;
+}
+table{
+    text-align: center;
+    width:1000px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+th,td{
+    line-height: 40px;
+    border: 1px solid #e9ebe8;
+    /*合并两条相邻的边框*/
+    border-collapse: collapse;
+}
