@@ -1,0 +1,17 @@
+{
+  "name": "9-Students",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dateformat": "^4.5.1",
+    "mongoose": "^6.0.5",
+    "serve-static": "^1.14.1"
+  }
+}
