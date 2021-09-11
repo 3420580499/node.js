@@ -1,0 +1,4 @@
+1.为了是art-template模板引擎能够更好的和Express框架配合,模板引擎官方在
+  原art-template模板引擎的基础上封装了express-art-template  
+2.使用npm install art template express-art-template命令进行安装  
+
